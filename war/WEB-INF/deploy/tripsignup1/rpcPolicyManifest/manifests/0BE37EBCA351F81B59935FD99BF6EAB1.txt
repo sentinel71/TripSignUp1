@@ -1,0 +1,2 @@
+serviceClass: com.portal.signup.client.GreetingService
+path: 00EAFDA33255A1DEC74EF53CA6D4CD42.gwt.rpc
