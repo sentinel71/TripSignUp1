@@ -188,7 +188,6 @@ input[type="text"]:focus{
 		<div class="intro">What do we do ?</div>
 		<div class="triangle"></div>
 		<div class="more">We do your laundry , So that you don't have to go home and cry for your mama</div>
-		<!--<p class="launch">Count down to launch has begun . Till then buy some more undies</p>-->
 		<form action="/signup" method="post" class="form">
 			<input name="email" type="text" placeholder="Enter your email address"/> <input type="submit" value="Notify Me" />
 		</form>
