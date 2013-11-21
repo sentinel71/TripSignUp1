@@ -158,8 +158,8 @@ input[type="text"]:focus{
 		<div class="intro">What do we do ?</div>
 		<div class="triangle"></div>
 		<div class="more">We do your laundry , So that you don't have to go home and cry for your mama</div>
-		<form action="/signup" method="post">
-			<input name="email" /> <input type="submit" value="Notify Me" />
+		<form action="/signup" method="post" class="form">
+			<input name="email" type="text" placeholder="Enter your email address"/> <input type="submit" value="Notify Me" />
 		</form>
 		<p class="disclaimer">Enter your email address and we'll let you know as soon as we're ready</p>
 		<br>
