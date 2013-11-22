@@ -17,7 +17,8 @@ public class SignUpServlet extends HttpServlet{
 	
 	@Override
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-		
+		//Comment
+		//This
 		String emailadd = req.getParameter("email");
 		DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 		Entity email = new Entity("Email");
