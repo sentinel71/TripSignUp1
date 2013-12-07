@@ -1,0 +1,17 @@
+body{
+	background: url(../../houseboat2.jpg) center top;
+}
+
+.complete{
+	margin-top: 50px;
+	width: 40%;
+	margin-left: 35%;
+	font-family:  Yanone Kaffeesatz;
+	color: white;
+}
+
+.tagline{
+	color: white;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+	font-size: 3em;
+}
