@@ -32,6 +32,7 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.Query;
 
 public class SignUpServlet extends HttpServlet{
+	//this is comment
 	private static final long serialVersionUID = 1L;
 	private static final Logger log = Logger.getLogger(SignUpServlet.class.getName());
 	private static final String EMAIL_PATTERN = "^[_A-Za-z0-9-]+(\\." +
