@@ -5,11 +5,10 @@
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
 
-    
    <static-files>
-  <include path="/favicon.ico" />
-</static-files>
-  <!-- Servlets -->
+        <include path="/favicon.ico" />
+   </static-files>
+   <!-- Servlets -->
   <servlet>
         <servlet-name>signup</servlet-name>
         <servlet-class>com.portal.signup.servlets.SignUpServlet</servlet-class>

@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/index.css">
 <script type="text/javascript" src="resources/js/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link
 	href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300'
 	rel='stylesheet' type='text/css'>
@@ -18,7 +19,20 @@
 	<div class="fixed">
 
 		<div class="price">
-			<span class="close" style="color: white; cursor: pointer;">Close</span>
+		    <span style="font-size:1.25em;color:white">Fares starting as low as Rs.5499/-</span> <br><br>
+			<p style="color:black;text-shadow:none;font-size:1em;text-align:justify;margin-left:10px;">
+				<img src="drink.png" style="width:24px;height:24px"> Drink
+				<img src="food.png" style="width:24px;height:24px"> Food
+				<img src="fruit.png" style="width:30px;height:30px;position:relative;top:6px"> Fruits
+				<img src="coffee.png" style="width:30px;height:30px;position:relative;top:6px"> Coffee
+				<img src="TV.png" style="width:24px;height:24px;top:4px;position:relative"> T.V<br><br>
+				<img src="water1.png" style="width:24px;height:24px"> Mineral Water&emsp;
+				<img src="wifi1.png" style="width:24px;height:24px"> wifi&emsp;
+				<img src="conf1.png" style="width:24px;height:24px"> Conf. Room
+
+			</p>
+			<br>
+			<span class="close" style="color:black;cursor:pointer;background-color:white;padding:1px 2px;border-radius:5px;text-shadow:none;font-size:0.85em">Close</span>
 		</div>
 	</div>
 	<div class="container">
@@ -41,8 +55,11 @@
 				<p style="color:rgb(200,50,50);font-size:1.25em;margin-left: 37%;">Email pattern is incorrect. Please enter your Email again.</p>
 			</c:if>
 			</form>
+			
 		</div>
-		<div class="two"></div>
+		<div class="two">
+		
+		</div>
 	</div>
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -51,7 +68,7 @@
 					bottom : '0px'
 				}, 100, 'linear');
 				$('.two').animate({
-					top : '200px'
+					top : '270px'
 				}, 100, 'linear');
 			});
 			$('.close').click(function() {
@@ -86,5 +103,6 @@
 	display: inline;
 }
 </style>
+
 </body>
 </html>
