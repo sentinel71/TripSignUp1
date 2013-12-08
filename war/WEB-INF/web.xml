@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
@@ -27,3 +28,33 @@
  
 
 </web-app>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+   <static-files>
+        <include path="/favicon.ico" />
+   </static-files>
+   <!-- Servlets -->
+  <servlet>
+        <servlet-name>signup</servlet-name>
+        <servlet-class>com.portal.signup.servlets.SignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>signup</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+	<welcome-file>signup.jsp</welcome-file>
+  </welcome-file-list>
+  
+ 
+
+</web-app>
+>>>>>>> 0d64340aaedc554c4dd9bda07325cbbefb228af3
